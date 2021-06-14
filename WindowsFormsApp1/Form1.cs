@@ -250,6 +250,8 @@ namespace WindowsFormsApp1
             {
                 System.Windows.Forms.Application.Exit();
             }
+            domainUpDown2.Text = "1";
+            guessedNumbers = 0;
         }
 
         private void _enableFieldsBasedOnCurrentDomainValue()
